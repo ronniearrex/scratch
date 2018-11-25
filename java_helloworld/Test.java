@@ -1,5 +1,11 @@
 public class Test {
     public static void main(String[] args) {
-        System.out.println("HelloWorld");
+        Outputter.SayHello();
     }
+}
+
+public static class Outputter {
+        public static void SayHello() {
+            System.out.println("HelloWorld");
+        }
 }

@@ -1,4 +1,4 @@
-﻿using System;
+﻿using UtilityClasses;
 
 namespace Csharp_helloworld
 {
@@ -6,7 +6,7 @@ namespace Csharp_helloworld
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Greeter.SayHelloWorld();   
         }
     }
 }

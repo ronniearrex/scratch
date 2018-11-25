@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "artifactId01"
+		},
+		{
+			"path": "Project02"
+		}
+	],
+	"settings": {
+		"java.configuration.updateBuildConfiguration": "interactive"
+	}
+}
